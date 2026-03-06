@@ -16,4 +16,4 @@ def load_pdf(pdf_path : str) -> str:
     doc.close()
     print(f"Loaded pdf--{len(full_text)} characters extracted")
 
-load_pdf(r"1475163596-1-21 (1)-pages.pdf")
+load_pdf(r"sample_pdf.pdf")
