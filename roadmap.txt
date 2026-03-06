@@ -1,0 +1,13 @@
+PDF File
+   ↓
+1. LOAD        → Read PDF pages using PyMuPDF
+   ↓
+2. CHUNK       → Split text into overlapping chunks
+   ↓
+3. EMBED       → Convert chunks → vectors (embeddings)
+   ↓
+4. STORE       → Save vectors in ChromaDB (vector store)
+   ↓
+5. RETRIEVE    → On user query → find top-K similar chunks
+   ↓
+6. GENERATE    → Feed chunks + query → LLM → Answer
