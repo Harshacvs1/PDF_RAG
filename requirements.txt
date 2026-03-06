@@ -1,0 +1,19 @@
+# PDF loading
+pymupdf==1.24.3
+
+# Text splitting
+langchain==0.2.6
+langchain-community==0.2.6
+
+# Embeddings (local, free)
+sentence-transformers==3.0.1
+
+# Vector store
+chromadb==0.5.3
+
+# LLM (via Groq - free & fast)
+groq==0.9.0
+
+# Env vars
+python-dotenv==1.0.1
+
